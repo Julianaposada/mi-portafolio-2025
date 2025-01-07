@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio Web de Comida</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Delicias Gourmet</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="menu">
+            <h2>Nuestro Menú</h2>
+            <div class="plato">
+                <img src="images/274856625_4838299289589123_198976309194706540_n.jpg" alt="Plato 1">
+                <h3>Plato 1</h3>
+                <p>Descripción deliciosa del plato.</p>
+                <span>$12.99</span>
+            </div>
+            <div class="plato">
+                <img src="images/96898-1.png" alt="Plato 2">
+                <h3>Plato 2</h3>
+                <p>Descripción deliciosa del plato.</p>
+                <span>$15.99</span>
+            </div>
+        </section>
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Tu nombre" required>
+                <input type="email" id="email" placeholder="Tu correo" required>
+                <textarea id="message" placeholder="Escribe tu mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2025 Delicias Gourmet - Creado con HTML, CSS y JavaScript</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

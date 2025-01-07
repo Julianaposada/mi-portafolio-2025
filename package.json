@@ -1,0 +1,23 @@
+{
+  "name": "mi-portafolio-2025",
+  "version": "1.0.0",
+  "description": "Portafolio profesional de Juliana Posada, incluyendo proyectos de HTML5, CSS3 y más.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Julianaposada/mi-portafolio-2025.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Julianaposada/mi-portafolio-2025/issues"
+  },
+  "homepage": "https://github.com/Julianaposada/mi-portafolio-2025#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
